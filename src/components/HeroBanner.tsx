@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 import HeroBannerImage from "../assets/images/banner1.jpg";
-import "./HeroBanner.css";
+import "./Herobanner.css";
 
 function HeroBanner() {
   return (
