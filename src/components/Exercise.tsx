@@ -1,7 +1,7 @@
 import { Box, Stack, Typography } from "@mui/material";
 import { useExerciseContext } from "./ExerciseContext";
 import ExerciseCart from "./ExerciseCart";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Exerciseoptions, fetchData } from "../utils/fetchdata";
 
 

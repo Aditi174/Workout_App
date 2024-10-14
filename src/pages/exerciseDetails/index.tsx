@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ExerciseVideos from "../../components/ExerciseVideos";
+// import ExerciseVideos from "../../components/ExerciseVideos";
 import Details from "../../components/Details";
 import { Exerciseoptions, fetchData } from "../../utils/fetchdata";
 import { useParams } from "react-router-dom";
@@ -21,8 +21,8 @@ function ExerciseDetails() {
   useEffect(() => {
     const fetchDetails = async () => {
       const exerciseDbUrl = "https://exercisedb.p.rapidapi.com";
-      const youTubeSearchUrl =
-        "'https://youtube-search-and-download.p.rapidapi.com/video/related'";
+      // const youTubeSearchUrl =
+      //   "'https://youtube-search-and-download.p.rapidapi.com/video/related'";
       const data = await fetchData(
         `${exerciseDbUrl}/exercises/exercise/${id}`,
         Exerciseoptions
